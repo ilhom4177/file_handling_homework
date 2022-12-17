@@ -10,12 +10,12 @@ def main(data:str):
     m = 0
     l = []
     for i in range(len(data)):
-        if data[i].index():
+        if data[i].isdigit():
             m+=1
         else:
             n+=1
-    l.append(m)
-    l.append(n)
+    l.index(m)
+    l.index(n)
     return l
 
 f = open("txt_file/data06.txt")
