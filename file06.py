@@ -6,19 +6,5 @@ def main(data:str):
     Returns:
         list: return answer
     """
-    n = 0
-    m = 0
-    l = []
-    for i in range(len(data)):
-        if data[i].isdigit():
-            m+=1
-        else:
-            n+=1
-    l.index(m)
-    l.index(n)
-    return l
-
-f = open("txt_file/data06.txt")
-a = f.read()
-print(main(a))
+    
 # Read data from file
